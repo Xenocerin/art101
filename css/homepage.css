@@ -8,6 +8,7 @@
 
 .major-assignments{
  font-weight: bold;
- color: red;
+ font-style: italic;
+ color: rgb(255, 255, 255);
 }
 
