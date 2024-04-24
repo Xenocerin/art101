@@ -1,6 +1,6 @@
 // Battleship
 //An implimentation of the game
-// Author: Revon Hollis
+// Author: Stephen Francoeur
 // Date:  4/24/2024
 
 //Take user boat locations
