@@ -2,7 +2,7 @@
 // Author: Stephen Francoeur
 // Date: 4/29/2024
 
-const myTransport = [walk,bike,bus,drive];
+const myTransport = ["walk","bike","bus","drive"];
 
 const myMainRide = {
   make: "Lexus",
@@ -17,8 +17,8 @@ const myMainRide = {
 document.writeln("My transportation methods: ", myTransport, "</br>");
 
 document.writeln("My main ride: <pre>",
-    JSON. stringify(myMainRide, null, "/t"), "</pre>");
+    JSON. stringify(myMainRide, null, "\t"), "</pre>");
 
 
-    
+
 
