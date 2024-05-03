@@ -16,9 +16,6 @@ function sortUserName() {
 }
 
 
-document.writeln(
-  <div class="h2"> Oh hey, I've fixed your name: ${sortedName}</div>
-);
-
+document.writeln("<div class='h2'>","Oh hey, I've fixed your name:", sortUserName(), "</div>", "</br>",);
 
 
