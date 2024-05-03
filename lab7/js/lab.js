@@ -1,24 +1,20 @@
-// Lab 6 - Arrays & Objects
+// Lab 7 - Arrays & Objects
 // Author: Stephen Francoeur
-// Date: 4/29/2024
+// Date: 5/2/2024
+function sortUserName() {
+  var userName = window.prompt("Hello, please input your username for correction");
+  console.log("userName =", userName);
+  var nameArray = userName.split('');
+  console.log("nameArraySort =", nameArray);
+  var nameArraySort = nameArray.sort();
+  console.log("nameArraySort =", nameArraySort);
+  var nameSorted = nameArraySort.join('');
+  console.log("nameSorted =", nameSorted);
+  return nameSorted;
+}
 
-const myTransport = ["walk","bike","bus","drive"];
-
-const myMainRide = {
-  make: "Lexus",
-  model: "GS 350",
-  color: "Silver",
-  year: 2013,
-  age: function() {
-      return 2024 - this.year
-  }
-};
-
-document.writeln("My transportation methods: ", myTransport, "</br>");
-
-document.writeln("My main ride: <pre>",
-    JSON. stringify(myMainRide, null, "\t"), "</pre>");
-
+document.writeln("Oh hey, I've fixed your name: ",
+   sortUserName(), "</br>");
 
 
 
