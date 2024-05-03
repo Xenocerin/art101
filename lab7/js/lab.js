@@ -16,6 +16,6 @@ function sortUserName() {
 }
 
 
-document.writeln("<div class='h2'>","Oh hey, I've fixed your name:", sortUserName(), "</div>", "</br>",);
+document.writeln("Oh hey, I've fixed your name:", "<div class='h2'>", sortUserName(), "</div>", "</br>",);
 
 
