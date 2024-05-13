@@ -5,3 +5,5 @@
 $(".button").click(function () { 
   $(this).parent().toggleClass("special");
 });
+
+$("#challenge").append("<button id='button-challenge>Specialize</button>")
