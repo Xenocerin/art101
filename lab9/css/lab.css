@@ -8,14 +8,8 @@
     background-color: #ffffff71;
   }
 
-div .challenge {
-  padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #ffffff71;
-} 
 
-.special div {
+.special {
   background-color: aquamarine;
   color: mediumseagreen;
   font-style: italic;
