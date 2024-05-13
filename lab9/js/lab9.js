@@ -2,10 +2,20 @@
 // Author: Stephen Francoeur
 // Date: 5/13/2024
 
-$(".button").click(function () { 
+$("#challenge").append("<button id='button-challenge'>Specialize</button>")
+
+$("button-challenge").click(function() {
   $(this).parent().toggleClass("special");
 });
 
-$("#challenge").append("<button id='button-challenge'>Specialize</button>")
+$("#problems").append("<button id='button-problems'>Specialize</button>")
 
-$("button-challenge").click(function(){$("#challenge").toggleClass("special");});
+$("button-problems").click(function() {
+  $(this).parent().toggleClass("special");
+});
+
+$("#reflection").append("<button id='button-reflect'>Specialize</button>")
+
+$("button-reflect").click(function() {
+  $(this).parent().toggleClass("special");
+});

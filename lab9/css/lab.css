@@ -8,12 +8,11 @@
     background-color: #ffffff71;
   }
 
-
 .special {
   background-color: aquamarine;
   color: mediumseagreen;
   font-style: italic;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .h2 {
