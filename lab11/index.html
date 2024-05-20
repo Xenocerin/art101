@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 10 - Javascript for the Web</title>
+	<title>Lab 11 - JavaScript Events and Forms</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -17,35 +16,37 @@
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab10.js" DEFER></script>
+	<script type="text/javascript" src="./js/lab11.js" DEFER></script>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 10 - Javascript for the Web</h1>
+			<h1>Lab 11 - JavaScript Events and Forms</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>The challenge was to create a button and attatch to it two functions one that generates random text by choosing a random start and end point of a text between 3 and 100 and the other appends the text to the designated div tag.
+					<p>Create an input box which takes the user's input or name which upon clicking the submit button takes the user input and assigns it to a constant before passing it to a function that automatically converts it to a string then divides it into an array, sorts it in alphabetical order, and recombines it before displaying it in the "output" div.
 					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p> I breifly couldn't get the text to randomize but then I realized it was because the randomize function was only running one time and by nesting it in the ".click" I could call it everytime the button was clicked.
+					<p> I was confused as to the function of the ".val" method but figured out it just was to turn the userinput into a value as it can't be assigned to a variable otherwise.
 					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>I'm much more confident with both jQuery and functions as a result of this assignment.</p>
+					<p>I've learned a bit more about manipulating user input through methods now.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<p>Click the button below and see for yourself.
+					<p>Input your name and the name of your pet bellow to be horrifically merged together.
 					</p>
-					<button id="make-convo">Make conversation</button>
+					<input type="text" id="user-name" placeholder="Input Name">
+					<input type="text" id="pet" placeholder="Input Pet Name">
+					<button id="submit">Submit</button>
 					<div id="output"></div>
 			</div>
 
@@ -64,6 +65,8 @@
 			<li><a href="../lab8/index.html">Lab 8: Anonymous Functions & Callbacks</a></li>
 			<li><a href="../lab9/index.html">Lab 9: Libraries & jQuery</a></li>
 			<li><a href="../lab10/index.html">Lab 10: Javascript for the Web</a></li>
+			<li><a href="../lab11/index.html">Lab 11: JavaScript Events and Forms</a></li>
+		</nav>
 		</nav>
 	</main>
 </body>
