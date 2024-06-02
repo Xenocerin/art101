@@ -9,6 +9,8 @@ $("#submit").click(function(){
   $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
 
+
+
 function sortString(inputString) {
   return inputString.split('').sort().join('');
 }
