@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 13 - Loops</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab13.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 13 - Loops</h1>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<p>The challenge was to take user input in the form of factors and the word to print when that factor is present in a listed number, it then begins listing numbers up to a maximum that is also input by the user.
+						 It does this via a function that takes the user's maximum number and an array storing the user's factors. It then uses a loop which repeats starting a zero until it reaches the maximum number with a nested
+						 loop that runs through the array and contains an if statement that divides the current number and checks if it equals zero, if so it prints the associated keyword.
+					</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<p> I was very confused for a time as how to run all the javascript functions
+					</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>I feel this was a pretty good way of demonstrating conditionals though I had some trouble implimenting CSS.</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<p>Feel free to see which house you'd be sorted into below!
+					</p>
+					How high should we count? <input type="number" min=0 max="1000" id="max"><br>
+					Decide your factors and the associated keywords.<br>
+					<table>
+						<tr>
+							<th>Factor</th>
+							<th>Printed keyboard</th>
+					    </tr>
+						<tr>
+							<td><input type="number" min="0" max="23" id="num0"></td>
+							<td><input type="text" id="text0"></td>
+						<tr>
+							<td><input type="number" min="0" max="23" id="num1"></td>
+							<td><input type="text" id="text1"></td>
+						</tr>
+						<tr>
+							<td><input type="number" min="0" max="23" id="num2"></td>
+							<td><input type="text" id="text2"></td>
+						</tr>
+						<tr>
+							<td><input type="number" min="0" max="23" id="num3"></td>
+							<td><input type="text" id="text3"></td>
+						</tr>
+					</table>
+					<button id="submit">Run</button>
+					<div id="output"></div>
+			</div>
+
+			
+								
+			</div>
+		</section>
+		<nav id="links">
+			<li><a href="../index.html">Homepage</a></li>
+			<li><a href="../lab2/helloworld.html">Lab 2: My First HTML</a></li>
+			<li><a href="../lab3/index.html">Lab 3: File Structure</a></li>
+			<li><a href="../lab4/index.html">Lab 4: File Transfer</a></li>
+			<li><a href="../lab5/index.html">Lab 5: Data Types & Variables</a></li>
+			<li><a href="../lab6/index.html">Lab 6: Arrays & Objects</a></li>
+			<li><a href="../lab7/index.html">Lab 7: Functions</a></li>
+			<li><a href="../lab8/index.html">Lab 8: Anonymous Functions & Callbacks</a></li>
+			<li><a href="../lab9/index.html">Lab 9: Libraries & jQuery</a></li>
+			<li><a href="../lab10/index.html">Lab 10: Javascript for the Web</a></li>
+			<li><a href="../lab11/index.html">Lab 11: JavaScript Events and Forms</a></li>
+			<li><a href="../lab12/index.html">Lab 12: Conditionals</a></li>
+		</nav>
+		</nav>
+	</main>
+</body>
+</html>
