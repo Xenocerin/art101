@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab 13 - Loops</title>
+	<title>Lab 14 - Debugging Tools & Strategies</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -22,55 +22,36 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab 13 - Loops</h1>
+			<h1>Lab 14 - Debugging Tools & Strategies</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>The challenge was to take user input in the form of factors and the word to print when that factor is present in a listed number, it then begins listing numbers up to a maximum that is also input by the user.
-						 It does this via a function that takes the user's maximum number and an array storing the user's factors. It then uses a loop which repeats starting a zero until it reaches the maximum number with a nested
-						 loop that runs through the array and contains an if statement that divides the current number and checks if it equals zero, if so it prints the associated keyword.
+					<p>The challenge was to go back and correct any bugs in previous code, in my case that'd be my lab 9 toggle class button.
 					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p> I was very confused for a time as how to run all the javascript functions but then I realized how the event listeners work, or atleast I think I did. 
+					<p> The issue was that despite me beleiving I properly connected the classes I was unable to toggle no the special class and couldn't figure out why.
+						However given the number of labs and experience gained since then I was almost immediately able to diagnoise the problem as me being an idiot, turns out that
+						since I'd made the original div and buttons classes both so similar I'd confused the div and button classes and plugged the div class into the ".click" method 
+						meaning that the button was connected to nothing. Additionally despite making a class for my buttons I listed it as an id meaning even if I would've gottent the name correct intially it wouldn't have worked.
+						Thankfully now having a little more experience the problem was easy to recgonize and address.
+
 					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>I can easily follow how the various functions work and all of the operations and conditionals within them but I struggle to see how they're all connected but overall I feel I'm closer to a complete understanding.</p>
+					<p>I've since realised to pay closer attention to syntax as a slight slip up can have you being forced to peer over lines of code for one spelling mistake.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<p>Below is my complete factor function, feel free to try yourself!
+					<p>Here is the new code and and image of the working special class.
 					</p>
-					How high should we count? <input type="number" min=0 max="1000" id="max"><br>
-					Decide your factors and the associated keywords.<br>
-					<table>
-						<tr>
-							<th>Factor</th>
-							<th>Printed keyboard</th>
-					    </tr>
-						<tr>
-							<td><input type="number" min="0" max="23" id="num0"></td>
-							<td><input type="text" id="text0"></td>
-						<tr>
-							<td><input type="number" min="0" max="23" id="num1"></td>
-							<td><input type="text" id="text1"></td>
-						</tr>
-						<tr>
-							<td><input type="number" min="0" max="23" id="num2"></td>
-							<td><input type="text" id="text2"></td>
-						</tr>
-						<tr>
-							<td><input type="number" min="0" max="23" id="num3"></td>
-							<td><input type="text" id="text3"></td>
-						</tr>
-					</table>
-					<button id="submit">Run</button>
-					<div id="output"></div>
+					<img class="img" src="img/lab9Code.png"><br>
+					<img class="img" src="img/lab9Working.png" size><br>
+					
 			</div>
 
 			
