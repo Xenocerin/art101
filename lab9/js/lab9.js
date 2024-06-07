@@ -2,10 +2,13 @@
 // Author: Stephen Francoeur
 // Date: 5/13/2024
 
-$(".challenge").append("<button id='button-challenge'>Make Special</button>");
+$(".challenge").append("<button class='button-challenge'>Make Special</button>");
 
-$("button-challenge").click(function(){
-    $(".challenge").toggleClass(".special");
-});
+
+$(".button-challenge").click(function(){
+  $(this).parent().toggleClass("minor-section");
+  $(this).parent().toggleClass("special");  
+})
+
 
 
