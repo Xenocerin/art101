@@ -10,7 +10,7 @@ $(".challenge").append("<button class='button-challenge'>Make Special</button>")
 /*upon clicking any button with the class "button challenge" will toggle on the css class 
 "special" for the div the button is appended to through an anonymous function.*/
 $(".button-challenge").click(function(){
-  $(this).parent().toggleClass("special");  
+  $(this).parent().toggleClass("special"); 
 })
 
 
